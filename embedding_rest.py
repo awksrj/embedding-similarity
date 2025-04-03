@@ -3,7 +3,7 @@ import json
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Replace with your actual Google API key
-google_api_key = 'AIzaSyCO5sgCM2vwMryARgmCgp6suac-_CmJXXA'
+google_api_key = 'Google_API_Key'
 
 # API endpoint URL
 url = f'https://generativelanguage.googleapis.com/v1beta/models/text-embedding-004:embedContent?key={google_api_key}'
